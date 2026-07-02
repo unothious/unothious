@@ -4,9 +4,12 @@ document.addEventListener('mousemove', (e) => {
         document.body.appendChild(trail);
         trail.style.left = e.pageX + 'px';
         trail.style.top = e.pageY + 'px';
-
-
+        
+        
         setTimeout(() => {
             trail.remove();
         }, 500);
+
+
+
     });

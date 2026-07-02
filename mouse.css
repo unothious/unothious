@@ -8,7 +8,7 @@
             position: absolute;
             width: 10px;
             height: 10px;
-            background-color: #ff6600;
+            background-color: #ffffff;
             border-radius: 50%;
             pointer-events: none;
             animation: fade 0.5s forwards;
